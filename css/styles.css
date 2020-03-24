@@ -12,3 +12,7 @@ img {
 .red-background {
   background-color: red;
 }
+
+.lightgray-background {
+  background: blue;
+}
