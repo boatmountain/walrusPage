@@ -19,7 +19,13 @@ $(document).ready(function() {
     $("img#taco2").fadeToggle();
   });
   $("button#gray").click(function() {
-    $("body").removeClass ();
-    $("body").addClass("lightgray-background");
+    $("body").toggleClass("darkgray-background");
   });
 });
+
+
+//  $("div #tacoBox").hover(function(){
+//   $(this).toggle("display", "show");
+// }, function(){
+// $(this).css("background-color", "pink");
+// });
