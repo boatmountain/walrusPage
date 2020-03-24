@@ -17,9 +17,14 @@ img {
   background: darkgray;
 }
 
-div #tacoBox {
-  display: none;
+div #tacoBox :hover {
+  display: show;
   width: 300px;
   height: 100px;
   border: 1px solid blue;
 }
+
+div #tacoBox {
+  display: show;
+}
+
