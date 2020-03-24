@@ -3,3 +3,12 @@ img {
   height: 300px;
   width: 300px;
 }
+.green-background {
+  background-color: green;
+}
+.yellow-background {
+  background-color: yellow;
+}
+.red-background {
+  background-color: red;
+}
