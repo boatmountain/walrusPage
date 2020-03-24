@@ -14,7 +14,12 @@ $(document).ready(function() {
     $("body").removeClass ();
     $("body").addClass("red-background");
   });
+  
   $("#2").click(function() {
     $("img#taco2").fadeToggle();
+  });
+  $("button#gray").click(function() {
+    $("body").removeClass ();
+    $("body").addClass("lightgray-background");
   });
 });

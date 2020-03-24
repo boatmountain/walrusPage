@@ -13,11 +13,12 @@ img {
   background-color: red;
 }
 
-.lightgray-background {
-  background: blue;
+.darkgray-background {
+  background: darkgray;
 }
 
-.#tacoBox {
+div #tacoBox {
+  display: none;
   width: 300px;
   height: 100px;
   border: 1px solid blue;
